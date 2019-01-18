@@ -33,7 +33,11 @@ function Bio() {
               />
               <p>
                 Jelmer de Waal. A front-end developer at{' '}
-                <a href="https://your-source.nl/" target="_blank">
+                <a
+                  href="https://your-source.nl/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   Your Source
                 </a>
                 . This is a place for my collection of thoughts.
@@ -41,7 +45,11 @@ function Bio() {
             </div>
             <p>
               Twitter:{' '}
-              <a href={`https://twitter.com/${social.twitter}`} target="_blank">
+              <a
+                href={`https://twitter.com/${social.twitter}`}
+                target="_blank"
+                rel="noopener"
+              >
                 @Luxizzle
               </a>
             </p>
